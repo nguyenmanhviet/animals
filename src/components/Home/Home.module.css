@@ -1,0 +1,16 @@
+.home {
+  display: grid;
+  gap: 1.25rem 1.25rem;
+  grid-template-columns: auto auto auto;
+  width: 90%;
+  padding: 3rem;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .home {
+    grid-template-columns: auto;
+  }
+}
+
